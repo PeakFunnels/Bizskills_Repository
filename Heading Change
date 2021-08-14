@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+
+<html>
+  
+<!----------------------------------------- HEAD START--------------------------------------------------->  
+  
+<head>
+  
+<!---------------------------------------CSS STYLING START----------------------------------------------->    
+  
+  	<style>
+      
+  	h1 {
+    color:blue
+   
+    }
+      
+      p {
+    color:green
+      
+      }  
+  </style> 
+  
+<!----------------------------------------CSS STYLING STOP----------------------------------------------->
+  
+  
+  
+  
+  <script>
+    
+  	var head1V = "My Second Heading";
+    var para1V = "My Second Paragraph";
+    
+    
+		function changeHeading() {
+  		document.getElementById("head1").innerHTML =head1V;
+  		document.getElementById("para1").innerHTML =para1V;
+  		document.getElementById("head1").style.color = "red";
+  		document.getElementById("para1").style.color = "red";
+  
+		}
+  	</script>
+  
+  
+</head>  
+  
+<!------------------------------------------ HEAD STOP--------------------------------------------------->  
+  
+
+  
+<!-------------------------------------------BODY START-------------------------------------------------->
+  
+<body>
+  
+	<h1 id="head1">My First Heading</h1>
+	<p id="para1">My First Paragraph.</p>
+  
+
+
+	<button type="button" onclick="changeHeading()">Try it</button>
+    
+
+</body>
+  
+<!-------------------------------- -----------BODY STOP-------------------------------------------------->
+  
+</html>
